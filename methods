@@ -1,0 +1,27 @@
+#Method : we can write the method name at once and we call that name when we want 
+*it is a block of code it can perform a specific task
+example : 
+class computer {
+
+    public void playmusic() {//the void doesnt return anything it just performs an action
+        System.out.println("playing music");
+    }
+
+    public String getmeapen() {
+        return "pen";
+    }
+}
+
+public class methods {
+
+    public static void main(String args[]) {
+
+        computer obj = new computer();
+
+        obj.playmusic();
+
+        String str = obj.getmeapen();//str is used to store the value in it 
+
+        System.out.println(str);
+    }
+}
